@@ -110,6 +110,14 @@ especialmente nos mercados imobiliário, financeiro e esportivo.
 - Recebimentos parciais, auditoria e lixeira com restauração.
 - Metas, processo diário e orientação financeira.
 - Experiências para corretor, imobiliária, finanças pessoais e empresa.
+- Central com 9 simuladores imobiliários: amortização, ROI, aluguel, revenda, leilão, construção e mais.
+
+<p align="center">
+  <img src="assets/avenhub-centro-de-comando.png" alt="Centro de comando do AvenHub (dados pessoais ocultados)" width="100%">
+</p>
+<p align="center">
+  <img src="assets/avenhub-ferramentas.png" alt="Central de ferramentas imobiliárias do AvenHub" width="100%">
+</p>
 
 `Next.js` `React` `Cloudflare Workers` `D1` `Drizzle` `NextAuth` `Zod`
 
