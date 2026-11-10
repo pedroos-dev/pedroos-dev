@@ -43,28 +43,25 @@ especialmente nos mercados imobiliário, financeiro e esportivo.
 
 ## 🚀 Projetos em destaque
 
-> A maioria dos meus produtos está em desenvolvimento ativo ou em operação, por isso o código-fonte é **privado**.
-> Abaixo, o que cada um faz e com quais tecnologias foi construído.
-
 ### 🏆 PlayHub
 Plataforma para organizar partidas esportivas ("rachas"): perfis de jogador, organizador e arena, cadastro de quadras e cobrança via **Pix** integrada ao Mercado Pago.
 `TypeScript` `React` `Vite` `Express` `PostgreSQL` `Drizzle` `Clerk` `OpenAPI`
+[📂 Código](https://github.com/pedroos-dev/playhub) · [🔗 Site](https://playhubsport.com.br)
 
 ### 🎬 ShortFlow
 SaaS para criação de vídeos curtos (Shorts) no formato quiz, mapa/distância, A/B e verdadeiro/falso — com editor visual, templates, biblioteca de prompts e exportação em **MP4**.
 `TypeScript` `React` `Remotion` `Node.js` `Express` `SQLite`
-
-### 💼 AvenHub · Comissão Premium
-Sistema de gestão de produção e comissões imobiliárias com workspaces isolados, recebimentos parciais, metas, auditoria e orientação financeira — com experiências para corretor, finanças pessoais, imobiliária e empresa.
-`Next.js` `React` `Cloudflare Workers` `D1` `Drizzle` `NextAuth` `Zod`
+[📂 Código](https://github.com/pedroos-dev/shortflow)
 
 ### 🏗️ PedroOS Factory · AI Council
 Ambiente local onde **Claude** e **Codex** analisam ideias e projetos em modo conversa ou debate com rodadas limitadas — roda apenas na máquina, sem guardar senhas ou tokens.
 `Node.js` `TypeScript` `Claude Code` `Codex CLI`
+[📂 Código](https://github.com/pedroos-dev/ai-council)
 
-### 🌐 Site Institucional PedroOS
-Template de site institucional reutilizável para imobiliárias, corretores e negócios locais, com conteúdo, tema, contatos e SEO separados dos componentes.
-`Next.js` `React` `Tailwind CSS` · [🔗 Ver demonstração](https://pedroos-site-institucional.vercel.app)
+### 💼 AvenHub · Comissão Premium
+Sistema de gestão de produção e comissões imobiliárias com workspaces isolados, recebimentos parciais, metas, auditoria e orientação financeira — com experiências para corretor, finanças pessoais, imobiliária e empresa.
+`Next.js` `React` `Cloudflare Workers` `D1` `Drizzle` `NextAuth` `Zod`
+🔒 Código privado (sistema em uso com dados reais)
 
 ---
 
