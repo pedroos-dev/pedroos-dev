@@ -41,27 +41,77 @@ especialmente nos mercados imobiliário, financeiro e esportivo.
 
 ---
 
-## 🚀 Projetos em destaque
+## 🚀 Projetos
 
-### 🏆 PlayHub
-Plataforma para organizar partidas esportivas ("rachas"): perfis de jogador, organizador e arena, cadastro de quadras e cobrança via **Pix** integrada ao Mercado Pago.
-`TypeScript` `React` `Vite` `Express` `PostgreSQL` `Drizzle` `Clerk` `OpenAPI`
-[📂 Código](https://github.com/pedroos-dev/playhub) · [🔗 Site](https://playhubsport.com.br)
+> Meus produtos estão em operação ou em desenvolvimento ativo, por isso o código-fonte é privado.
+> Aqui está a ideia, a essência e telas reais de cada um.
 
-### 🎬 ShortFlow
-SaaS para criação de vídeos curtos (Shorts) no formato quiz, mapa/distância, A/B e verdadeiro/falso — com editor visual, templates, biblioteca de prompts e exportação em **MP4**.
+### 🎬 ShortFlow — da ideia ao próximo Short
+
+**A ideia:** criar vídeos curtos de quiz e curiosidades leva tempo demais em editores comuns. O ShortFlow transforma perguntas e respostas em Shorts verticais prontos, em poucos minutos.
+
+**A essência:**
+- Assistente em 5 passos: conteúdo → perguntas → formato → personalização → geração.
+- Formatos **A ou B**, **Verdadeiro ou Falso** e **Mapa / Distância**, com estilos visuais prontos.
+- Conteúdo criado manualmente, importado por JSON/CSV ou preparado com prompts para IA.
+- Exportação em **MP4** renderizada localmente, sem APIs pagas.
+
+<p align="center">
+  <img src="assets/shortflow-entrada.png" alt="Tela de entrada do ShortFlow" width="100%">
+</p>
+<p align="center">
+  <img src="assets/shortflow-formatos.png" alt="Escolha de formato no ShortFlow" width="49%">
+  <img src="assets/shortflow-editor.png" alt="Editor e prévia do Short no ShortFlow" width="49%">
+</p>
+
 `TypeScript` `React` `Remotion` `Node.js` `Express` `SQLite`
-[📂 Código](https://github.com/pedroos-dev/shortflow)
 
-### 🏗️ PedroOS Factory · AI Council
-Ambiente local onde **Claude** e **Codex** analisam ideias e projetos em modo conversa ou debate com rodadas limitadas — roda apenas na máquina, sem guardar senhas ou tokens.
-`Node.js` `TypeScript` `Claude Code` `Codex CLI`
-[📂 Código](https://github.com/pedroos-dev/ai-council)
+---
 
-### 💼 AvenHub · Comissão Premium
-Sistema de gestão de produção e comissões imobiliárias com workspaces isolados, recebimentos parciais, metas, auditoria e orientação financeira — com experiências para corretor, finanças pessoais, imobiliária e empresa.
+### 🏗️ AI Council — várias IAs pensando juntas
+
+**A ideia:** comparar a opinião de diferentes IAs exige copiar e colar entre ferramentas. O AI Council reúne pessoa e agentes de IA numa mesma sala para analisar uma ideia.
+
+**A essência:**
+- Salas em modo **conversa** ou **debate**, com ordem de fala e limite de rodadas.
+- Integra **Codex**, **Claude** e **Google Antigravity**.
+- Métricas de tokens, tempo e custo por mensagem, e laboratório para comparar prompts.
+- Roda só no computador do usuário: sem hospedagem e sem guardar senhas ou tokens.
+
+<p align="center">
+  <img src="assets/ai-council-sala.png" alt="Sala de debate do AI Council" width="49%">
+  <img src="assets/ai-council-nova-sala.png" alt="Criação de sala com escolha de agentes no AI Council" width="49%">
+</p>
+
+`TypeScript` `React` `Node.js` `Codex CLI` `Claude Code`
+
+---
+
+### 🏆 PlayHub — onde o jogo acontece
+
+**A ideia:** organizar uma partida de futebol amador envolve grupo de mensagens, planilha e cobrança manual. O PlayHub junta tudo em uma plataforma.
+
+**A essência:**
+- Perfis de **jogador**, **organizador** e **arena**.
+- Página pública da partida para confirmar presença.
+- Arenas parceiras com quadras, fotos e agenda de horários.
+- Cobrança via **Pix** pelo Mercado Pago, com confirmação automática do pagamento.
+
+`TypeScript` `React` `Express` `PostgreSQL` `Drizzle` `Clerk` `Mercado Pago`
+
+---
+
+### 💼 AvenHub — gestão de comissões imobiliárias
+
+**A ideia:** corretores e imobiliárias controlam vendas, comissões e recebimentos em planilhas soltas. O AvenHub organiza produção, finanças e metas num só painel.
+
+**A essência:**
+- Produção por venda e angariação, separada do financeiro.
+- Recebimentos parciais, auditoria e lixeira com restauração.
+- Metas, processo diário e orientação financeira.
+- Experiências para corretor, imobiliária, finanças pessoais e empresa.
+
 `Next.js` `React` `Cloudflare Workers` `D1` `Drizzle` `NextAuth` `Zod`
-🔒 Código privado (sistema em uso com dados reais)
 
 ---
 
