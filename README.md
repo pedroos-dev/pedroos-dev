@@ -81,7 +81,7 @@ Template de site institucional reutilizável para imobiliárias, corretores e ne
 
 ## 📫 Contato
 
-[![GitHub](https://img.shields.io/badge/GitHub-pedrofuracao007--hub-181717?style=flat-square&logo=github)](https://github.com/pedrofuracao007-hub)
+[![GitHub](https://img.shields.io/badge/GitHub-pedroos--dev-181717?style=flat-square&logo=github)](https://github.com/pedroos-dev)
 
 <div align="center">
 
